@@ -1,7 +1,7 @@
 # latam-tools
 
 Entrypoint hub for the **LATAM Tools** sites — a single static landing page at
-[latam-tools.com.br](https://latam-tools.com.br) that links to the community tools for
+**[latam-tools.com.br](https://latam-tools.com.br/)** that links to the community tools for
 Ragnarok Online LATAM.
 
 ## Linked sites
@@ -46,7 +46,4 @@ firebase emulators:start --only hosting
 firebase deploy --only hosting
 ```
 
-Live (Firebase): https://latam-tools.web.app
-
-> The custom domain `latam-tools.com.br` is connected manually via the Firebase Console
-> (Hosting → Add custom domain) + DNS records at the registrar.
+Live at https://latam-tools.com.br/
