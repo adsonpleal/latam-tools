@@ -147,10 +147,6 @@ body {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
-  /* First card spans full width on top */
-  .card:first-child {
-    grid-column: 1 / -1;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
