@@ -76,6 +76,38 @@ body {
   max-width: 38ch;
 }
 
+.discord {
+  margin-top: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+  background: #5865f2;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.discord:hover,
+.discord:focus-visible {
+  transform: translateY(-2px);
+  background: #4752c4;
+  box-shadow: 0 10px 24px rgba(88, 101, 242, 0.35);
+  outline: none;
+}
+
+.discord:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.discord__icon {
+  flex-shrink: 0;
+}
+
 /* Cards */
 .cards {
   display: grid;
@@ -155,6 +187,13 @@ body {
   }
   .card:hover,
   .card:focus-visible {
+    transform: none;
+  }
+  .discord {
+    transition: none;
+  }
+  .discord:hover,
+  .discord:focus-visible {
     transform: none;
   }
 }
