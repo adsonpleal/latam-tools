@@ -8,6 +8,7 @@ Ragnarok Online LATAM.
 
 | Site | URL |
 |------|-----|
+| Mercado | https://mercado.latam-tools.com.br/ |
 | Simulador | https://simulador.latam-tools.com.br/ |
 | RagnaRecap | https://recap.latam-tools.com.br/ |
 | Visuais | https://visuais.latam-tools.com.br/ |
